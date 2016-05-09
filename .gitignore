@@ -15,3 +15,22 @@ project/plugins/project/
 # Scala-IDE specific
 .scala_dependencies
 .worksheet
+
+# IDEA IDE specific
+.idea/
+
+# VIM/EMACS TEMP FILE specific
+\#*\#
+.\#*
+*.swp
+*.swo
+
+project/project/
+project/target/
+target/
+logs/
+
+*~
+.*
+
+!.sbtrc
